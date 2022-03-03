@@ -1,0 +1,19 @@
+package Fuensalida;
+
+public class FindingTheNonReapetedCharacter {
+
+  public static void main(String[] args) {
+   
+  String inputStr = " Iverson iver";
+  for(char i : inputStr. toCharArray()) {
+    if(inputStr.indexOf(i) == inputStr. lastIndexOf(i)) {
+      
+      System.out.println("First non repeated character is; " +i);
+      
+    }
+  }
+  
+
+  }
+
+}
